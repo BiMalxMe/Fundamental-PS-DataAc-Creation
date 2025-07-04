@@ -1,15 +1,5 @@
-# nameclient
+# Hey there
 
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.17. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
+This project demonstrates how to create a data account on Solana without using a Program Derived Address (PDA).
+It uses the SystemProgram to create a new account and fund it with SOL.
+All account creation and funding is handled directly with keypairs.
