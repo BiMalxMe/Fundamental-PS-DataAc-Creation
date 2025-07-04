@@ -21,8 +21,6 @@ yarn-error.log*
 Thumbs.db
 
 # Environment files
-.env
-.env.local
 .env.*.local
 
 # IDE / Editor settings
@@ -41,3 +39,4 @@ tmp/
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yam
+config.bat
